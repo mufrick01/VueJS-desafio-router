@@ -1,6 +1,6 @@
 <template>
   <div>
-    <h1 class="text-center m-0" style="font-size: 2.5rem">Nuestros producto principales</h1>
+    <h1 class="text-center m-0" style="font-size: 2.5rem">Nuestros principales productos</h1>
     <CardList :products="this.products" />
   </div>
 </template>
@@ -16,6 +16,8 @@ export default {
   },
 
   data() {
+
+    // mock para probar funcionalidad 
     const products = [
       {
         title: 'Bebidas',
