@@ -1,5 +1,6 @@
 <template>
     <div class="container d-flex flex-column">
+        <GoHomeButton/>
         <h1>Product View</h1>
         <div class="card mx-auto my-5" style="width: 50%;">
             <img :src="this.product.img" class="card-img-top" alt="...">
@@ -19,10 +20,12 @@
 </template>
 
 <script>
+import GoHomeButton from '@/components/GoHomeButton.vue';
 import { useRoute } from 'vue-router';
 
 export default {
     components: {
+        GoHomeButton
     },
     data() {
         const route = useRoute();

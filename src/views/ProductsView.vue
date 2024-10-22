@@ -1,6 +1,6 @@
 <template>
     <div>
-      <h1 class="text-center m-0" style="font-size: 2.5rem">todos nuestros productos</h1>
+      <h1 class="text-center m-0 text-capitalize" style="font-size: 2.5rem">todos nuestros productos</h1>
         <CardList :products="this.products"/>
     </div>
 </template>

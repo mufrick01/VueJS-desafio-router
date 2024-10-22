@@ -30,7 +30,7 @@
 
 <script>
 export default {
-  name: 'MiComponente',
+  name: 'Card',
   data() {
     return {
       // Datos aquí
